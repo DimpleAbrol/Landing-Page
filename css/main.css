@@ -73,3 +73,68 @@ p{
     padding: 10px 0 20px 0;
     color: white;
 }
+.extra{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+.extra-div{
+    background: #fff;
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 3px;
+}
+.extra-div-h2,.servicediv h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0, 0, 0.5);
+    transform: translateY(-20px);
+}
+.serviceoffer{
+    background-color: rgb(212, 206, 206);
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+.service-icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;    
+}
+.progress{
+    height: 0.6rem!important;
+    margin: 15px;
+    width: 85%;
+
+}
+i{
+    color:rgb(104, 170, 209);
+}
+/*******************************************/
+.project-work{
+    margin: 100px 0;
+
+}
+.project-work h1{
+    font-size: 2rem;
+    text-align: center;
+}
+/************************88jquery^********************8/
