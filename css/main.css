@@ -54,7 +54,7 @@ p{
     -webkit-transform: translate(-50% -50%);
     
 }
-.header-button a{
+.header-buttons a{
     border: 1px solid #fff;
     border-radius: 100px;
     margin: 0 5px;
@@ -65,7 +65,7 @@ p{
     font-weight: 400;
     line-height: center;
 }
-.header-button a:hover{
+.header-buttons a:hover{
    color: white;
    background: #fff;
    text-decoration: none;
@@ -290,4 +290,23 @@ i{
 #myBtn:hover{
     background: gray;
 }
+@media(max-width: 768px){
+    .nav-item{
+        text-align: center;
+    }
+    .pricing {
+        height: auto;
+        margin-top: 50px;
+    }
+    .card-second{
+        margin-top: 50px;
+    }
+    .contact h3{
+        text-align: left;
+    }
+    .footerdiv{
+        margin-left: 10px;
+    }
 
+
+}
