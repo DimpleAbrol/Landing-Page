@@ -166,28 +166,106 @@
         <p class="text-center">More Than 2000 projects created</p>
         <div class="container d-flex justify-content-around align-items-center text-center">
             <div>
-                <h1>1500</h1>
+                <h1 class="count">1500</h1>
                 <p>CMD</p>
             </div>
             <div>
-                <h1>1500</h1>
+                <h1 class="count">1500</h1>
                 <p>CMD</p>
             </div>
             <div>
-                <h1>1500</h1>
+                <h1 class="count">1500</h1>
                 <p>CMD</p>
             </div>
             <div>
-                <h1>1500</h1>
+                <h1 class="count">1500</h1>
                 <p>CMD</p>
             </div>
         </div>
     </div>
 </section>
+
+<section class="pricing" id="pricingdiv">
+    <div class="container headings text-center">
+        <h1 class="text-center font-weight-bold text-white">over pricing</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="card text-center">
+                        <div class="card-header">Basic</div>
+                        <div class="card-body">
+                            <li>$<span class="money">20</span">/website</li>
+                            <li>domain name free</li>
+                            <li>mobile friendly</li>
+                            <li>webmail support</li>
+                        </div>
+                        <div class="card-footer">
+                        <a href="#">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 card-second">
+                    <div class="card text-center">
+                        <div class="card-header">Basic</div>
+                        <div class="card-body">
+                            <li>$<span class="money">20</span>/website</li>
+                            <li>domain name free</li>
+                            <li>mobile friendly</li>
+                            <li>webmail support</li>
+                        </div>
+                        <div class="card-footer">
+                        <a href="#">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card text-center">
+                        <div class="card-header">Basic</div>
+                        <div class="card-body">
+                            <li>$<span class="money">20</span">/website</li>
+                            <li>domain name free</li>
+                            <li>mobile friendly</li>
+                            <li>webmail support</li>
+                        </div>
+                        <div class="card-footer">
+                        <a href="#">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---------------------------------------------ends-------------------------------->
+<!---------------------------------------custumer start----------------------->
+<section class="happy clients">
+    <div class="container headings text-center">
+        <h1 class="text-center font-weight-bold">our happy client</h1>
+        <p class="text-uppercase">our satisfied clients</p>
+    </div>
+    
+
+</section>
+
    
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/4.0.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+    $('.count').counter({
+    start: 1000,
+    end: 4500,
+    time: 8,
+    step: 500,
+    callback: function() {
+        alert("I'm done!");
+    }
+});
+
+</script>
 </body>
 </html>
