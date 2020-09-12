@@ -1,3 +1,6 @@
+html{
+    scroll-behaviour:shooth
+}
 *{
     margin: 0;
     padding: 0;

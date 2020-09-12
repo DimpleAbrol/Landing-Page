@@ -32,16 +32,16 @@
                        <a class="nav-link text-white font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item text-white font-weight-bold">
-                       <a class="nav-link" href="#">Service</a>
+                       <a class="nav-link" href="#servicediv">Service</a>
                     </li>
                     <li class="nav-item text-white font-weight-bold">
-                       <a class="nav-link" href="#">link</a>
+                       <a class="nav-link" href="#projectdiv">Project</a>
                     </li>
                     <li class="nav-item text-white font-weight-bold">
-                       <a class="nav-link" href="#">Link</a>
+                       <a class="nav-link" href="#pricingdiv">Price</a>
                     </li>
                     <li class="nav-item text-white font-weight-bold">
-                       <a class="nav-link" href="#">Link</a>
+                       <a class="nav-link" href="#contactid">ContactUs</a>
                     </li>
                 </ul>
             </div>
@@ -158,7 +158,7 @@
 </section>
 <!--------------------end offer section------------------------------------->
 <!---------------------------------project donr start----------------------->
-<section class="project work">
+<section class="project work" id="projectdiv">
     <div class="container headings text-center">
         <h1 class="text-center font-weight-bold">Project Done</h1>
         <p class="text-center">More Than 2000 projects created</p>
@@ -329,6 +329,20 @@
         time:3000
 
     })
+mybutton = Document.getElementById("myBtn");
+window.onscroll = function() {scrollfunction()};
+function scrollfunction(){
+    if(document.body.scrollTop >20 || document.documentElement.scrollTop >20){
+        mybutton.style.display = "black";
+    }else{
+        mubutton.style.display = "none";
+    }
+    }
+    function topfunction(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+
+    }
 
 </script>
 </body>
